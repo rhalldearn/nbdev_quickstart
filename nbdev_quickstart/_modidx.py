@@ -2,7 +2,7 @@
 
 d = { 'settings': { 'branch': 'main',
                 'doc_baseurl': '/nbdev_quickstart',
-                'doc_host': 'https://rhalldearn.github.io',
+                'doc_host': 'https://halldearn.com',
                 'git_url': 'https://github.com/rhalldearn/nbdev_quickstart',
                 'lib_path': 'nbdev_quickstart'},
   'syms': {'nbdev_quickstart.core': {'nbdev_quickstart.core.foo': ('core.html#foo', 'nbdev_quickstart/core.py')}}}
