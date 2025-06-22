@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_quickstart"
+  site-url: "https://rhalldearn.github.io/nbdev_quickstart"
+  description: "quick start instructions for using nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/rhalldearn/nbdev_quickstart"
