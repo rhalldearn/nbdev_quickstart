@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "00_setup_inst.html",
+    "href": "00_setup_inst.html",
+    "title": "nbdev_quickstart",
+    "section": "",
+    "text": "– Install virtualenv on Python 3.9\nAdd dead-snakes repository:\n\n\n```shell-script\nsudo add-apt-repository ppa:deadsnakes/ppa\n```\n\nInstall Python 3.9, development package and the specific venv:\n\n```shell-script\nsudo apt install python3.9\nsudo apt install python3.9-dev\nsudo apt install python3.9-venv\n```\n\n\nCreate Python 3.9 virtualenv:\n\n\n```shell-script\npython3.9 -m venv py39\n```\n\nInstall everything from the requirements.txt file (created via pip freeze &gt; requirements.txt)\n\npip install -r requirements.txt",
+    "crumbs": [
+      "00_setup_inst.html"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_quickstart",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "nbdev_quickstart"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "nbdev_quickstart",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall nbdev_quickstart in Development mode\n# make sure nbdev_quickstart package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to nbdev_quickstart\n$ nbdev_prepare",
+    "crumbs": [
+      "nbdev_quickstart"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "nbdev_quickstart",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/rhalldearn/nbdev_quickstart.git\nor from conda\n$ conda install -c rhalldearn nbdev_quickstart\nor from pypi\n$ pip install nbdev_quickstart\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "nbdev_quickstart"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_quickstart",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "nbdev_quickstart"
+    ]
+  }
+]
